@@ -1,0 +1,547 @@
+ /* FIXME : PHONE SECONDPAGE  */
+@media screen and (max-width: 1150px) {
+  .wallpaperTwo {
+    background-color: black;
+    height: 220vh;
+    width: 100%;
+  }
+
+  .test {
+    position: relative;
+    height: 200vh;
+    box-sizing: border-box;
+    z-index: 1;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+  }
+
+  .section {
+    margin-top: 3rem;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexElement {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 125vh;
+  }
+
+  .flexElementTwo {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .contentOne {
+    bottom: 0;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+  }
+
+  .photoElementOne {
+    border-radius: 10px;
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: all 2s ease-in-out;
+  }
+
+  .photoElementOne img {
+    opacity: 0.75;
+    position: relative;
+    min-width: 100%;
+    transition: all 1s ease-in-out;
+    height: 100%;
+  }
+
+  .contentOne :hover,
+  .contentOne ::before {
+    transform: scale(1.025);
+    transition: all 1.5s ease-in-out;
+  }
+
+  .headingElement {
+    position: absolute;
+    width: 95%;
+    height: 20%;
+    left: 3%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .headingElement a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: var(--fontfam4);
+    font-weight: 400;
+    text-shadow: 1px 1px 20px #777;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .headingElement a:hover,
+  .headingElement a::before {
+    color: #ffff;
+    transform: scale(1.05);
+    text-shadow: 2px 2px 7px #777;
+  }
+
+  .headingElement p {
+    color: wheat;
+    width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: var(--fontfam4);
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+  }
+
+  .contentTwo {
+    height: 50vh;
+    margin-left: auto;
+    position: relative;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  .photoElementTwo {
+    border-radius: 10px;
+    height: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+  }
+
+  .photoElementTwo img {
+    position: relative;
+    min-width: 100%;
+    transition: all 1.5s ease-in-out;
+    height: 100%;
+    opacity: 0.85;
+  }
+
+  .contentTwo :hover,
+  .contentTwo ::before {
+    transform: scale(1.02);
+    transition: all 1.5s ease-in-out;
+  }
+
+  .contentThree {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+  }
+
+  .contentThree :hover,
+  .contentThree ::before {
+    transition: all 2s ease-in-out;
+  }
+
+  .photoElementThree {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transition: all 2s ease-in-out;
+  }
+
+  .photoElementThree img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    width: 180%;
+    transition: all 1s ease-in-out;
+    opacity: 0.75;
+    height: 110%;
+  }
+
+  .headingElementThree {
+    position: absolute;
+    width: 100%;
+    width: 80vw;
+    height: 210px;
+    top: 70px;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .headingElementThree a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: var(--fontfam4);
+    font-weight: 400;
+    text-shadow: 1px 1px 20px #777;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+  }
+
+  .headingElementThree p {
+    width: 100px;
+    height: 130px;
+    letter-spacing: 6px;
+    font-family: var(--fontfam4);
+    font-weight: smaller;
+  }
+}
+
+
+ /* FIXME : COMPUTER SECONDPAGE   */
+@media only screen and (min-width: 1150px) {
+  .wallpaperTwo {
+    background: black;
+    height: 160vh;
+    width: 100%;
+  }
+  .test {
+    position: relative;
+    background-color: black;
+    height: 180vh;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+
+  .brokenHeading {
+    position: absolute;
+    width: 600px;
+    height: 110px;
+    bottom: 20px;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .brokenHeading a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: var(--fontfam9);
+    font-weight: 400;
+    font-size: 35px;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .brokenHeading p {
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: var(--fontfam6);
+    opacity: 0.9;
+    font-weight: 500;
+    height: 100%;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+  }
+
+  .brokenHeading a :hover,
+  .brokenHeading a ::before {
+    transform: scale(1.05);
+    color: white;
+  }
+
+  .seeAllContent {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    height: 5.5%;
+    width: 205px;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    right: 0;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttonAll {
+    border-left: 3px solid #333;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      to right,
+      rgba(243, 238, 238, 0.89),
+      rgb(241, 237, 237)
+    );
+  }
+
+  .buttonAll a {
+    color: black;
+    font-family: var(--fontfam9);
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 1.7s ease-in-out;
+  }
+
+  .buttonAll a:hover,
+  .buttonAll a::before {
+    transform: scale(1.1);
+    transition: all 1.7s ease-in-out;
+  }
+  .section {
+    width: 100%;
+    height: 180vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexElement {
+      margin-top: 3rem;
+    position: relative;
+    margin-left: auto;
+    background: black;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .contentOne {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+
+  .contentOne :hover,
+  .contentOne ::before {
+    transform: scale(1.025);
+    transition: all 1s ease-in-out;
+    opacity: 0.99;
+  }
+
+  .photoElementOne {
+    width: 100%;
+    height: 100%;
+    transition: all 2s ease-in-out;
+  }
+
+  .photoElementOne img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.65;
+    transition: all 1s ease-in-out;
+  }
+
+  .contentTwo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .contentTwo :hover,
+  .contentTwo ::before {
+    transform: scale(1.02);
+    transition: all 1.5s ease-in-out;
+    opacity: 1;
+  }
+
+  .photoElementTwo {
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+  }
+
+  .photoElementTwo img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 0.65;
+    max-height: 100%;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+  }
+
+  .headingElement {
+    bottom: 15%;
+    position:relative;
+    left: 2%;
+    transition: all 1s ease-in-out;
+  }
+
+  .headingElement a {
+    font-family: var(--fontfam9);
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+  }
+
+  .headingElement p {
+    margin-top: 0.5rem;
+    font-family: var(--fontfam9);
+    font-weight: 400;
+    font-size: 9px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+  }
+
+  .headingElement a:hover,
+  .headingElement a::before {
+    color: #ffff;
+    transform: scale(1.05);
+    text-shadow: 2px 2px 7px #777;
+  }
+
+  .flexElementTwo {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90vh;
+    background-color: black;
+    width: 98%;
+    border-radius: 30px;
+  }
+
+  .contentThree {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .contentThree :hover,
+  .contentThree ::before {
+    transform: scale(1.02);
+    transition: all 1s ease-in-out;
+    opacity: 1;
+  }
+
+  .photoElementThree {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transition: all 2s ease-in-out;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .photoElementThree img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0.55;
+    min-height: 130vh;
+    transition: all 1s ease-in-out;
+  }
+
+  .headingElementThree {
+    position: absolute;
+    width: 50%;
+    height: 210px;
+    top: 70px;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+  }
+
+  .headingElementThree a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: var(--fontfam4);
+    font-weight: 400;
+    text-shadow: 1px 1px 20px #777;
+    font-size: 55px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+  }
+
+  .headingElementThree p {
+    width: 100px;
+    height: 130px;
+    font-family: var(--fontfam4);
+    font-weight: bold;
+  }
+}
